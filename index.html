@@ -59,7 +59,7 @@
                 </select>
 
                 <label for="userState">Estado:</label>
-                <select name="userState">
+                <select name="userState" required>
                     <option value="notInformed">Selecione...</option>
                     <option value="AC">Acre</option>
                     <option value="AL">Alagoas</option>
@@ -91,6 +91,8 @@
                     <option value="EX">Estrangeiro</option>
                 </select>
 
+                <label for="userCity">Cidade</label>
+                <input type="text" name="userCity" placeholder="Ex: São Paulo">
             </fieldset>
             <button type="submit">Enviar</button>
         </form>
