@@ -81,7 +81,19 @@ input[type="color"]{
     padding: 0 5px
 }
 
-/*validação*/
+input[type="tel"]{
+    margin-bottom: 0;
+}
+
+small{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+input:focus{
+    border-color: cornflowerblue;
+    outline: none;
+}
 
 input:invalid, select:invalid, textarea:invalid{
     border-color: #4e0000

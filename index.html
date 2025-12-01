@@ -23,23 +23,55 @@
                 <fieldset>
                     <legend>Dados Pessoais</legend>
                     <label for="name" required>Nome</label>
-                    <input id="name" type="text" name="userName">
+                    <input 
+                        id="name" 
+                        type="text" 
+                        name="userName"
+                        required>
+                
                     <br>
                     <label for="age">Idade</label>
-                    <input id="age" type="number" name="userAge" min="12" max="100" required>
+                    <input 
+                        id="age" 
+                        type="number" 
+                        name="userAge" 
+                        min="12" 
+                        max="100" 
+                        required>
+                    
                     <br>
                     <label for="birthdate">Data de Nascimento</label>
-                    <input id="birthdate" type="date" name="userBirthdate">
+                    <input 
+                        id="birthdate" 
+                        type="date" 
+                        name="userBirthdate">
+                    
                     <br>
                     <label for="email">Email</label>
-                    <input id="email" type="email" name="userEmail" required>
+                    <input 
+                        id="email" 
+                        type="email" 
+                        name="userEmail" 
+                        required>
+                    
                     <br>
                     <label for="PhoneNumber">Telefone/Celular</label>
-                    <input id="PhoneNumber" type="tel" name="userPhoneNumber" pattern="[0-9]{11}"
-                        placeholder="DDD + número sem espaço ou hífen">
+                    <input 
+                        id="PhoneNumber" 
+                        type="tel" name="userPhoneNumber" 
+                        pattern="[0-9]{11}" 
+                        placeholder="DDD + número sem espaço ou hífen" 
+                        aria-describedby="phoneHelp">
+                    <small id="phoneHelp">Preencha com 11 digitos no formato: DDD + números sem espaços ou hífen</small>
+                    
                     <br>
                     <label for="image">Upload de foto</label>
-                    <input id="image" type="file" accept="image/*" name="userImage">
+                    <input 
+                        id="image" 
+                        type="file" 
+                        accept="image/*" 
+                        name="userImage">
+                    
                 </fieldset>
 
                 <fieldset>
