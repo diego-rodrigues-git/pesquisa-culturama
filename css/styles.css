@@ -63,7 +63,7 @@ input, select, textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #cccccc;
+    border: 2px solid #cccccc;
     border-radius: 5px;
 }
 
@@ -81,14 +81,27 @@ input[type="color"]{
     padding: 0 5px
 }
 
-/*validação*/
+input[type="tel"], 
+input[type="file"]{
+    margin-bottom: 0;
+}
+
+small{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+input:focus{
+    border-color: cornflowerblue;
+    outline: none;
+}
 
 input:invalid, select:invalid, textarea:invalid{
-    border-color: #4e0000
+    border-color: #900000
 }
 
 input:valid, select:valid, textarea:valid{
-    border-color: #004e00
+    border-color: #009000
 }
 
 button {
@@ -102,11 +115,11 @@ button {
 }
 
 button[type="submit"]:hover{
-    background-color: #004e00;
+    background-color: #009000;
     color: #ffffff;
 }
 
 button[type="reset"]:hover{
-    background-color: #4e0000;
+    background-color: #900000;
     color: #ffffff;
 }
