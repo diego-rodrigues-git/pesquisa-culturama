@@ -19,7 +19,7 @@
             <h1>Pesquisa de opnião</h1>
         </header>
         <section>
-            <form action="" method="get">
+            <form action="sucesso.html" method="get">
                 <fieldset>
                     <legend>Dados Pessoais</legend>
                     <label for="name" required>Nome</label>
@@ -53,7 +53,7 @@
 
                     <input id="genderNA" type="radio" name="userGender" value="notInformed">
                     <label for="genderNA">Prefiro não informar</label>
-
+                    <br>
                     <label for="maritalStatus">Estado civil:</label>
                     <select id="maritalStatus" name="userMaritalStatus">
                         <option value="notInformed">Selecione...</option>
@@ -112,7 +112,7 @@
                     <input id="linkedin" type="checkbox" name="social" value="linkedin">
                     <label for="linkedin">Linkedin</label>
                     <br>
-                    <input id="x-twitter    " type="checkbox" name="social" value="x-twitter">
+                    <input id="x-twitter" type="checkbox" name="social" value="x-twitter">
                     <label for="x-twitter">X/Twitter</label>
                     <br>
                     <label for="musicStyle">Estilo Músical:</label>
@@ -152,10 +152,10 @@
                 <fieldset>
                     <legend>Confirmações</legend>
                     <input type="checkbox" name="userLGPD" id="LGPDTerm" value="true" required>
-                    <label for="true">Eu aceito participar da pesquisa</label>
+                    <label for="LGPDTerm">Eu aceito participar da pesquisa</label>
                     <br>
                     <input type="checkbox" name="userGetResult" id="getResult" value="true">
-                    <label for="true">Desejo receber o resultado por email</label>
+                    <label for="getResult">Desejo receber o resultado por email</label>
                 </fieldset>
 
                 <button type="submit">Enviar</button>
